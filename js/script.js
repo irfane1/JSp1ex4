@@ -3,9 +3,5 @@ function afficher(){
     var firstname = document.getElementById("firstname").value;
     var city = document.getElementById("city").value;
     
-    alert(
-        "Nom : " + lastname + "\n" +
-        "Prénom : " + firstname + "\n" +
-        "Ville : " + city
-    )
-    }
+    alert("Nom : " + lastname + "\nPrénom : " + firstname + "\nVille : " + city)
+}
